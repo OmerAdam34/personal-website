@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>Personal Website</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
+    <header class="header">
+      <div class="stripe"></div>
       <h1>Personal Website</h1>
-      <nav>
-        <ul>
+      <div class="underlineHeader"></div>
+      <nav class="main-nav">
+        <ul class="navlist">
           <li>
-            <a href="https://github.com/OmerAdam34"><b>Contact</b></a>
+            <a class="navi" href="https://github.com/OmerAdam34" target="_blank"
+              ><b>Biography</b></a
+            >
           </li>
           <li>
-            <a href="https://github.com/OmerAdam34"><b>Biography</b></a>
+            <a class="navi" href="https://github.com/OmerAdam34" target="_blank"
+              ><b>Projects</b></a
+            >
           </li>
         </ul>
       </nav>
+    </header>
 
+    <article class="information">
       <p>
         <strong>Who Am I:</strong> <br />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident
@@ -36,48 +49,140 @@
         ipsa porro fugit dolorum odio<br />
         culpa, sit enim? natus enim, et excepturi fugit!
       </p>
-      <img src="src/img/me.png" alt="Thats me" />
+      <img class="mePic" src="src/img/meorg.jpg" alt="Thats me" />
       <figcaption>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
         corporis soluta perferendis ea corrupti. Asperiores, au.
       </figcaption>
-    </header>
+    </article>
+
+    <article class="projectPics">
+      <h2>Projects</h2>
+      <img class="xaltike" src="src/img/xaltike.png" alt="Xaltike Project" />
+      <img class="xaltike2" src="src/img/nan.png" alt="Xaltike Logo" />
+    </article>
+
+    <!-- CONTACT -->
+
+    <!-- Forms -->
     <br />
-    <main>
-      <fieldset>
-        <legend><h2>GET IN TOUCH</h2></legend>
-        <a>E-MAIL</a><br />
-        <input type="text" value="" /> <br />
-        <button>Send</button> <br />
+    <h2>GET IN TOUCH</h2>
 
-        <p>
-          CALL US <br />
-          <button>+0498288832133</button>
-        </p>
-      </fieldset>
-      <br />
-      <a href="https://github.com">github</a><br />
-      <img src="src/img/git.png" alt="github" />
-      <figcaption>click to connect with <button>GITHUB</button></figcaption>
+    <form class="in-touch">
+      <h3>don't be a stranger! message Me:</h3>
+
       <br />
 
-      <a href="https://www.linkedin.com">linkedin</a> <br />
-      <img src="src/img/li.png" alt="linkedin" />
-      <figcaption>click to connect with <button>LINKED IN</button></figcaption>
+      <label for="first-name">First name</label>
+      <input id="first-name" type="text" placeholder="Jane/Joe" class="" />
+
       <br />
-    </main>
 
-    <article></article>
+      <label for="last-name">Last name</label>
+      <input id="last-name" type="text" placeholder="Doe" class="" />
 
-    <footer>
-      <fieldset>
-        <a href="">Impressum</a>
-        <a href=""> Terms</a>
-        <a href="">Privacy</a>
-        <a href="">Security</a>
-        <a href="">Status</a>
-        <a href="">Docs</a>
-      </fieldset>
+      <br />
+
+      <label for="email">E-MAIL</label>
+      <input id="email" type="email" placeholder="my-name@email.com" class="" />
+
+      <br />
+
+      <label for="textarea">don't be a stranger!</label>
+      <input id="textarea" type="textarea" placeholder="Muhhhhhhh" class="" />
+
+      <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M13 19C13 18.66 13.04 18.33 13.09 18H4V8L12 13L20 8V13.09C20.72 13.21 21.39 13.46 22 13.81V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H13.09C13.04 19.67 13 19.34 13 19M20 6L12 11L4 6H20M20 22V20H16V18H20V16L23 19L20 22Z"
+        />
+      </svg>
+
+      <br />
+
+      <button class="button" type="submit" aria-label="Enter E-MAIL">
+        Send
+      </button>
+
+      <h3>CALL ME!</h3>
+      <label for="phone"></label>
+      <input
+        class=""
+        id="phone"
+        type="tel"
+        placeholder="Your Number"
+        aria-label="Enter Your Number"
+      />
+      <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3C19,1.89 18.1,1 17,1Z"
+        />
+      </svg>
+      <br />
+      <button class="button" type="submit" aria-label="Send Phone number">
+        Send
+      </button>
+    </form>
+
+    <!-- CONTACTS ICON -->
+
+    <br />
+    <section class="social-links">
+      <p>
+        click to connect with
+      </p>
+      <div class="underline"></div>
+      <img class="icon" src="src/img/gh.png" alt="github icon" />
+      <a class="linkalign" href="https://github.com" target="_blank">github</a
+      ><br />
+      <p>
+        click to connect with
+      </p>
+      <div class="underline2"></div>
+      <img class="icon" src="src/img/linkedin.png" alt="linkedin icon" />
+      <a class="linkalign" href="https://www.linkedin.com" target="_blank"
+        >linkedin</a
+      >
+    </section>
+
+    <footer class="ftr-flexbox">
+      <a class="impressumLinks" href="https://www.google.com" target="_blank"
+        >Impressum</a
+      >
+      <a class="impressumLinks" href="https://www.google.com" target="_blank"
+        >Terms</a
+      >
+      <a class="impressumLinks" href="https://www.google.com" target="_blank"
+        >Privacy</a
+      >
+      <a class="impressumLinks" href="https://www.google.com" target="_blank"
+        >Security</a
+      >
+      <a class="impressumLinks" href="https://www.google.com" target="_blank"
+        >Status</a
+      >
+      <a class="impressumLinks" href="https://www.google.com" target="_blank"
+        >Docs</a
+      >
+
+      <div class="search">
+        <label for="search"></label>
+        <input
+          class=""
+          id="search"
+          type="search"
+          placeholder="Search"
+          aria-label="Submit Search"
+        />
+        <button type="search"></button>
+        <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"
+          />
+        </svg>
+      </div>
     </footer>
   </body>
 </html>
