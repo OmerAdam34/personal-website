@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: 1px dotted green;
+  }
+  
+  /* OLD FORM */
+  
+  /*
+  .inTouch {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .button {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-color: #cf2257;
+    background-color: white;
+    font-family: "Bebas Neue";
+  }
+  
+  .textfield {
+    width: 300px;
+    height: 300px;
+    border-color: grey;
+  }
+  
+  */
+  
+  body {
+    background-color: #ffffff;
+    font-family: "Bebas Neue", cursive;
+  }
+  
+  .header {
+    background-color: #e3e2e1;
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 650%;
+    padding-left: 15%;
+  }
+  
+  h2 {
+    font-size: 5rem;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    z-index: -11;
+  }  
+  
+  
+  .navlist {
+    list-style-type: none;
+    font-size: 2rem;
+  }
+  
+  .impressumLinks {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .navi {
+    text-decoration: none;
+    font-size: 150%;
+    margin-right: 35px;
+  }
+  
+  .mePic {
+    width: 300px;
+    border-radius: 74% 17% 27% 73% / 57% 72% 25% 44%;
+  }
+  
+  .icon {
+    width: 20%;
+  }
+  
+  .social-links {
+    font-size: 6rem;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10;
+  }
+  
+  
+  
+  .linkalign {
+    text-decoration: none;
+  }
+  
+  .linkalign:visited {
+    color: black;
+  }
+  
+  .navi:visited,
+  .impressumLinks:visited {
+    color: white;
+  }
+  
+  .navi:link,
+  .linkalign:link {
+    color: #000;
+  }
+  
+  .impressumLinks:hover {
+    color: black;
+  }
+  
+  .navi:hover,
+  .linkalign:hover {
+    color: grey;
+  }
+  
+  .navi:active,
+  .linkalign:active {
+    color: black;
+  }
+  
+  /* Balken Designs */
+  
+  .underline {
+    width: 750px;
+    height: 40px;
+    background-color: #cf2257;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+    z-index: -1;
+  }
+  
+  .underline2 {
+    width: 750px;
+    height: 40px;
+    background-color: #cf2257;
+    position: relative;
+    bottom: 70px;
+    z-index: -1;
+  }
+  
+  .stripe {
+    width: 680px;
+    height: 40px;
+    background-color: #cf2257;
+    position: absolute;
+    top: 55%;
+    left: 13.5%;
+    z-index: -1;
+  }
+  
+  .xaltike {
+    width: 500px;
+    height: auto;
+  }
+  
+  .xaltike2 {
+    width: auto;
+    height: 200px;
+  }
+  
+  .projectPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  /* FOOTER */
+  
+  .ftr-flexbox {
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
