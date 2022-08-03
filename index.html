@@ -32,98 +32,111 @@
     </header>
 
     <article class="information">
-      <p>
-        <strong>Who Am I:</strong> <br />
+        <div>
+        <h2 class="second-font-size">Who Am I:</h2>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident
-        <br />
         neque aut odio ex placeat obcaecati facere tempora nostrum earum, <br />
         voluptatibus architecto cum blanditiis aliquam molestiae animi
         doloremque esse voluptatum.
       </p>
-
+    </div>
+    <div>
       <p>
-        <strong>Interests:</strong> <br />
+        <h2 class="second-font-size">Interests:</h2> <br />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
         architecto hic fugiat accusamus. <br />
         Optio odio unde ullam officia doloremque? Facere exercitationem itaque
         ipsa porro fugit dolorum odio<br />
         culpa, sit enim? natus enim, et excepturi fugit!
       </p>
-      <img class="mePic" src="src/img/meorg.jpg" alt="Thats me" />
+    </div>
+    <div>
+      <img class="mePic" src="media/meorg.jpg" alt="Thats me" />
       <figcaption>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
         corporis soluta perferendis ea corrupti. Asperiores, au.
       </figcaption>
+    </div>
     </article>
 
     <article class="projectPics">
       <h2>Projects</h2>
-      <img class="xaltike" src="src/img/xaltike.png" alt="Xaltike Project" />
-      <img class="xaltike2" src="src/img/nan.png" alt="Xaltike Logo" />
+    <div>
+        <img class="xaltike" src="media/xaltike.png" alt="Xaltike Project" />
+    </div>
+    <div>
+        <img class="xaltike2" src="media/xaltike2.png" alt="Xaltike Logo" />
+    </div>
+    <div>
+        <img class="dali" src="media/dali.png" alt="Dali" />
+    </div>
+    <div>
+        <img class="biggi" src="media/biggi.png" alt="notorious big" />
+    </div>
     </article>
 
     <!-- CONTACT -->
 
-    <!-- Forms -->
+    <!-- FORMS -->
     <br />
-    <h2>GET IN TOUCH</h2>
+    <form class="main-form">
+            <h2>GET IN TOUCH</h2>
+            <h3 class="second-font-size">Message Me:</h3>
+        <div>
+            <label class="form-font-size" for="first-name">First name</label>
+            <input class="placeholder" id="first-name" type="text" placeholder="Jane/Joe" />
+        </div>
+        <div>
+            <label class="form-font-size" for="last-name">Last name</label>
+            <input class="placeholder" id="last-name" type="text" placeholder="Doe"/>
+        </div>
+        <div>
+            <label class="form-font-size" for="email">E-MAIL</label>
+            <input class="placeholder" id="email" type="email" placeholder="my-name@email.com"/>
+        </div>
+        <div>
+            <label class="form-font-size" for="textarea">don't be a stranger!</label>
+            <input class="textarea" id="textarea" type="textarea" placeholder="Muhhhhhhh"/>
 
-    <form class="in-touch">
-      <h3>don't be a stranger! message Me:</h3>
-
-      <br />
-
-      <label for="first-name">First name</label>
-      <input id="first-name" type="text" placeholder="Jane/Joe" class="" />
-
-      <br />
-
-      <label for="last-name">Last name</label>
-      <input id="last-name" type="text" placeholder="Doe" class="" />
-
-      <br />
-
-      <label for="email">E-MAIL</label>
-      <input id="email" type="email" placeholder="my-name@email.com" class="" />
-
-      <br />
-
-      <label for="textarea">don't be a stranger!</label>
-      <input id="textarea" type="textarea" placeholder="Muhhhhhhh" class="" />
-
-      <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
-        <path
-          fill="currentColor"
-          d="M13 19C13 18.66 13.04 18.33 13.09 18H4V8L12 13L20 8V13.09C20.72 13.21 21.39 13.46 22 13.81V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H13.09C13.04 19.67 13 19.34 13 19M20 6L12 11L4 6H20M20 22V20H16V18H20V16L23 19L20 22Z"
-        />
-      </svg>
-
-      <br />
-
-      <button class="button" type="submit" aria-label="Enter E-MAIL">
-        Send
-      </button>
-
-      <h3>CALL ME!</h3>
-      <label for="phone"></label>
-      <input
-        class=""
-        id="phone"
-        type="tel"
-        placeholder="Your Number"
-        aria-label="Enter Your Number"
-      />
-      <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
-        <path
-          fill="currentColor"
-          d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3C19,1.89 18.1,1 17,1Z"
-        />
-      </svg>
-      <br />
-      <button class="button" type="submit" aria-label="Send Phone number">
-        Send
-      </button>
+            <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
+            <path
+            fill="currentColor"
+            d="M13 19C13 18.66 13.04 18.33 13.09 18H4V8L12 13L20 8V13.09C20.72 13.21 21.39 13.46 22 13.81V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H13.09C13.04 19.67 13 19.34 13 19M20 6L12 11L4 6H20M20 22V20H16V18H20V16L23 19L20 22Z"
+            />
+            </svg>
+        </div>
+    </div>
+        <div>
+            <button class="form-button" type="submit" aria-label="Enter E-MAIL">
+                Send
+            </button>
+        </div>
+        <div>
+            <label class="form-font-size" for="phone">CALL ME</label>
+            <input
+                class=""
+                id="phone"
+                type="tel"
+                placeholder="Your Number"
+                aria-label="Enter Your Number"/>
+    
+            <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
+            <path
+            fill="currentColor"
+            d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3C19,1.89 18.1,1 17,1Z"/>
+            </svg>
+            <br>
+            <div>
+            <button class="form-button" type="submit" aria-label="Send Phone number">
+                Send
+            </button>
+        </div>
+        </div>
     </form>
+    <div >
+        <img class="telephone" src="media/tel.png" alt="Cellphone"/>
+    </div>
+</div>
 
     <!-- CONTACTS ICON -->
 
@@ -133,18 +146,20 @@
         click to connect with
       </p>
       <div class="underline"></div>
-      <img class="icon" src="src/img/gh.png" alt="github icon" />
+      <img class="icon" src="media/github.png" alt="github icon" />
       <a class="linkalign" href="https://github.com" target="_blank">github</a
       ><br />
       <p>
         click to connect with
       </p>
       <div class="underline2"></div>
-      <img class="icon" src="src/img/linkedin.png" alt="linkedin icon" />
+      <img class="icon" src="media/linkedin.png" alt="linkedin icon" />
       <a class="linkalign" href="https://www.linkedin.com" target="_blank"
         >linkedin</a
       >
     </section>
+
+    <!-- FOOTER MENU -->
 
     <footer class="ftr-flexbox">
       <a class="impressumLinks" href="https://www.google.com" target="_blank"
@@ -166,6 +181,7 @@
         >Docs</a
       >
 
+      <!-- SEARCH FOOTER -->
       <div class="search">
         <label for="search"></label>
         <input
