@@ -1,4 +1,4 @@
-.underline {
+.section--textdecoration {
     width: 750px;
     height: 40px;
     background-color: #cf2257;
@@ -8,7 +8,7 @@
     z-index: -1;
   }
   
-  .underline2 {
+  .section--textdecoration__2 {
     width: 750px;
     height: 40px;
     background-color: #cf2257;
@@ -17,7 +17,7 @@
     z-index: -1;
   }
 
-  .underline-project {
+  .article--textdecoration {
     width: 350px;
     height: 40px;
     background-color: #cf2257;

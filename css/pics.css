@@ -28,9 +28,9 @@
 
   .telephone {
     position: absolute;
-    width: 350px;
+    width: 450px;
     height: auto;
-    left: 28%;
+    left: 32.5%;
     top: 235.5%;
     z-index: -11;
   }

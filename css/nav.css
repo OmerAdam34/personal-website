@@ -1,32 +1,32 @@
-.linkalign {
+  .section--link {
     text-decoration: none;
   }
   
-  .linkalign:visited {
+  .section--link:visited {
     color: black;
   }
   
   .navi:visited,
-  .impressumLinks:visited {
+  .footer--links:visited {
     color: white;
   }
   
   .navi:link,
-  .linkalign:link {
+  .section--link:link {
     color: #000;
   }
   
-  .impressumLinks:hover {
+  .footer--links:hover {
     color: black;
   }
   
   .navi:hover,
-  .linkalign:hover {
+  .section--link:hover {
     color: grey;
   }
   
   .navi:active,
-  .linkalign:active {
+  .section--link:active {
     color: black;
   }
   

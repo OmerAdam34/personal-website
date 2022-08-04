@@ -14,7 +14,7 @@
     <header class="header">
       <div class="stripe"></div>
       <h1>Personal Website</h1>
-      <div class="underlineHeader"></div>
+      <div class="header--textdecoration"></div>
       <nav class="main-nav">
         <ul class="navlist">
           <li>
@@ -32,7 +32,7 @@
     <article class="grid-container">
       <div class="first-box">  
         <h2 class="first-font-size-grid">Who Am I</h2>
-        <p class="p-align">
+        <p class="article--grid__font">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit debitis 
           reprehenderit, architecto voluptatibus excepturi dicta ex maiores ad quisquam eveniet placeat! 
           Eaque, fuga perferendis. Officia neque ipsum tenetur expedita, odio repudiandae! Pariatur, quasi 
@@ -56,7 +56,7 @@
       </div>
       <div class="second-box">
         <h2 class="second-font-size-grid">Interests:</h2>
-        <p class="p-align"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda 
+        <p class="article--grid__font"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda 
           consectetur quod debitis. Voluptatum recusandae voluptates. Lorem, ipsum dolor sit amet 
           consectetur adipisicing elit. Hic, iste. Lorem ipsum dolor sit amet consectetur, adipisicing 
           elit. Mollitia.
@@ -70,7 +70,7 @@
       </div>
       <div class="fourth-box">
         <h2 class="fourth-font-grid-size">FLASHBACKS</h2>
-          <p class="p-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere 
+          <p class="article--grid__font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere 
             consequatur esse provident perferendis labore fuga in, obcaecati enim amet, velit nisi 
             eos nam corporis. Sunt, quia autem molestiae ratione porro quos tenetur deserunt expedita 
             aspernatur, et blanditiis, ab possimus explicabo voluptatum totam minima quibusdam quas 
@@ -87,19 +87,19 @@
       </div>
       <div class="fifth-box">
         <h2 class="fifth-font-size-grid">html css & JS</h2>
-          <p class="p-align">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto enim odit pariatur doloremque 
+          <p class="article--grid__font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto enim odit pariatur doloremque 
             nemo facere nihil corporis neque modi vel illo ad veritatis, facilis incidunt quisquam at, dolore 
             veniam. Tempore, iusto itaque amet.</p>
       </div>
       <div class="sixt-box">
         <h2 class="sixt-font-size-grid">Design & Coding</h2>
-          <p class="p-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id saepe commodi nisi molestiae.
+          <p class="article--grid__font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id saepe commodi nisi molestiae.
           </p>
       </div>
     </article>
 
     <h2 class="project-font">Projects</h2>
-    <div class="underline-project"></div>
+    <div class="article--textdecoration"></div>
     <article class="flexbox1">
       <div class="box">
         <img class="biggi" src="media/biggi.png" alt="notorious big"/>
@@ -127,46 +127,45 @@
       <h3 class="second-font-size">Message Me:</h3>
       <div>
         <label class="form-font-size" for="first-name">First name</label>
-        <input class="placeholder" id="first-name" type="text" placeholder="Jane/Joe" />
+        <input class="form--placeholder" id="first-name" type="text" placeholder="Jane/Joe" />
       </div>
       <div>
         <label class="form-font-size" for="last-name">Last name</label>
-        <input class="placeholder" id="last-name" type="text" placeholder="Doe"/>
+        <input class="form--placeholder" id="last-name" type="text" placeholder="Doe"/>
       </div>
       <div>
         <label class="form-font-size" for="email">E-MAIL</label>
-        <input class="placeholder" id="email" type="email" placeholder="my-name@email.com"/>
+        <input class="form--placeholder" id="email" type="email" placeholder="my-name@email.com"/>
       </div>
       <div>
         <label class="form-font-size" for="textarea">don't be a stranger!</label>
         <input class="textarea" id="textarea" type="textarea" placeholder="Muhhhhhhh"/>
-
-        <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
+        <!-- <svg class="forms--svg">
           <path fill="currentColor"
                 d="M13 19C13 18.66 13.04 18.33 13.09 18H4V8L12 13L20 8V13.09C20.72 13.21 21.39 13.46 22 13.81V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H13.09C13.04 19.67 13 19.34 13 19M20 6L12 11L4 6H20M20 22V20H16V18H20V16L23 19L20 22Z"/>
-        </svg>
+        </svg> -->
       </div>
     </div>
         <div>
-            <button class="form-button" type="submit" aria-label="Enter E-MAIL">Send</button>
+            <button class="formular--button" type="submit" aria-label="Enter E-MAIL">Send</button>
         </div>
-        <div>
+        <div><br>
             <label class="form-font-size" for="phone">CALL ME</label>
             <input
-                class=""
+                class="form--placeholder"
                 id="phone"
                 type="tel"
                 placeholder="Your Number"
                 aria-label="Enter Your Number"/>
-    
-            <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
+        </div>
+        <!-- <div>
+            <svg class="forms--svg">
             <path fill="currentColor"
                   d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3C19,1.89 18.1,1 17,1Z"/>
             </svg>
-            <br>
-
+          </div> -->
           <div>
-            <button class="form-button" type="submit" aria-label="Send Phone number">
+            <button class="formular--button" type="submit" aria-label="Send Phone number">
                 Send
             </button>
           </div>
@@ -179,53 +178,48 @@
 
     <br />
     <section class="social-links">
-      <p>
-        click to connect with
-      </p>
-    <div class="underline"></div>
+      <p>click to connect with</p>
+    <div class="section--textdecoration"></div>
     <img class="icon" src="media/github.png" alt="github icon" />
-    <a class="linkalign" href="https://github.com" target="_blank">github</a>
-    <br/>
-      <p>
-        click to connect with
-      </p>
-    <div class="underline2"></div>
+    <a class="section--link" href="https://github.com" target="_blank">github</a>
+      <p>click to connect with</p>
+    <div class="section--textdecoration__2"></div>
       <img class="icon" src="media/linkedin.png" alt="linkedin icon"/>
-      <a class="linkalign" href="https://www.linkedin.com" target="_blank">linkedin</a>
+      <a class="section--link" href="https://www.linkedin.com" target="_blank">linkedin</a>
     </section>
 
     <!-- FOOTER MENU -->
 
-    <footer class="ftr-flexbox">
-      <a class="impressumLinks" href="https://www.google.com" target="_blank">Impressum</a>
+    <footer class="footer--flexbox">
+      <a class="footer--links" href="https://www.google.com" target="_blank">Impressum</a>
 
-      <a class="impressumLinks" href="https://www.google.com" target="_blank">Terms</a>
+      <a class="footer--links" href="https://www.google.com" target="_blank">Terms</a>
 
-      <a class="impressumLinks" href="https://www.google.com" target="_blank">Privacy</a>
+      <a class="footer--links" href="https://www.google.com" target="_blank">Privacy</a>
 
-      <a class="impressumLinks" href="https://www.google.com" target="_blank">Security</a>
+      <a class="footer--links" href="https://www.google.com" target="_blank">Security</a>
 
-      <a class="impressumLinks" href="https://www.google.com" target="_blank">Status</a>
+      <a class="footer--links" href="https://www.google.com" target="_blank">Status</a>
 
-      <a class="impressumLinks" href="https://www.google.com" target="_blank">Docs</a>
+      <a class="footer--links" href="https://www.google.com" target="_blank">Docs</a>
 
       <!-- SEARCH FOOTER -->
+
       <div class="search">
         <label for="search"></label>
         <input
-          class=""
+          class="footer--submit"
           id="search"
           type="search"
           placeholder="Search"
-          aria-label="Submit Search"
-        />
-        <button type="search"></button>
-        <svg style="width: 24px; height: 24px;" viewBox="0 0 24 24">
+          aria-label="Submit Search"/>
+        <button class="footer--button" type="search">GO!</button>
+        <!-- <svg class="forms--svg">
           <path
             fill="currentColor"
             d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"
           />
-        </svg>
+        </svg> -->
       </div>
     </footer>
   </body>
