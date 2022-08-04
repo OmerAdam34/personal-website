@@ -1,7 +1,7 @@
 .projectPics {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
@@ -25,12 +25,13 @@
     width: 252px;
     height: auto;
   }
+
   .telephone {
+    position: absolute;
     width: 350px;
     height: auto;
-    position: absolute;
     left: 28%;
-    top: 155%;
+    top: 235.5%;
     z-index: -11;
   }
 

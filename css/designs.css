@@ -37,3 +37,12 @@
     z-index: -1;
   }
   
+  .underline-contact {
+    width: 450px;
+    height: 40px;
+    background-color: #cf2257;
+    position: relative;
+    left: 34%;
+    bottom: 50px;
+    z-index: -1;
+  }

@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-   outline: 1px dotted green;
+   _outline: 1px dotted green;
   }
 
   
@@ -29,5 +29,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding-bottom: 5%;
   }

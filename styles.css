@@ -10,10 +10,6 @@
 
   /*----- ABOUT ME ------*/
 
-  .box {
-    border: 1px solid pink;
-}
-
   .information {
     padding-top: 210px;
     display: flex;
