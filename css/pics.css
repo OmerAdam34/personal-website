@@ -1,0 +1,36 @@
+.projectPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .xaltike {
+    width: 300px;
+    height: auto;
+  }
+
+  .xaltike2 {
+    width: 500px;
+    height: auto;
+  }
+
+  .dali {
+    width: 300px;
+    height: auto;
+  }
+
+  .biggi {
+    width: 252px;
+    height: auto;
+  }
+  .telephone {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 28%;
+    top: 155%;
+    z-index: -11;
+  }
+

@@ -1,0 +1,39 @@
+.underline {
+    width: 750px;
+    height: 40px;
+    background-color: #cf2257;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+    z-index: -1;
+  }
+  
+  .underline2 {
+    width: 750px;
+    height: 40px;
+    background-color: #cf2257;
+    position: relative;
+    bottom: 70px;
+    z-index: -1;
+  }
+
+  .underline-project {
+    width: 350px;
+    height: 40px;
+    background-color: #cf2257;
+    position: relative;
+    left: 38%;
+    bottom: 50px;
+    z-index: -1;
+  }
+  
+  .stripe {
+    width: 680px;
+    height: 40px;
+    background-color: #cf2257;
+    position: absolute;
+    top: 55%;
+    left: 13.5%;
+    z-index: -1;
+  }
+  

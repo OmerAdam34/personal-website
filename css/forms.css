@@ -1,0 +1,31 @@
+  .second-font-size {
+    font-size: 3rem;
+}
+
+.main-form {
+    padding-left: 15px;
+    padding-top: 15px;
+    display: absolute;
+}
+
+.form-font-size {
+    font-size: 1.5rem;
+}
+
+.placeholder {
+    display: block;
+    width: 25%;
+    height: 30px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.textarea {
+    display: block;
+    width: 25%;
+    height: 180px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

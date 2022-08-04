@@ -1,0 +1,32 @@
+.linkalign {
+    text-decoration: none;
+  }
+  
+  .linkalign:visited {
+    color: black;
+  }
+  
+  .navi:visited,
+  .impressumLinks:visited {
+    color: white;
+  }
+  
+  .navi:link,
+  .linkalign:link {
+    color: #000;
+  }
+  
+  .impressumLinks:hover {
+    color: black;
+  }
+  
+  .navi:hover,
+  .linkalign:hover {
+    color: grey;
+  }
+  
+  .navi:active,
+  .linkalign:active {
+    color: black;
+  }
+  
